@@ -16,6 +16,7 @@ function App() {
       <form>
         <input type='text' onChange={handleInputchange}/>
       </form>
+      <button className=''>my name is sumit sharma </button>
     </div>
   //  <div>
   //   <button onClick={handleCLick}>Click me</button>
