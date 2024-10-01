@@ -2,17 +2,16 @@
 import './App.css'
 import { createBrowserRouter,  RouterProvider} from "react-router-dom";
 
-import home from './components/home';
+import Home from './components/home';
 
-import dashboard from './components/dashboard';
+
  
  const router = createBrowserRouter(
   [
-    {path:"/home",
-      element:<home/>,
+    {path:"/Home",
+      element:<Home/>,
     },{
-      path:"/About",
-      element:<About/>,
+      
     },{path:"/dashboard",
       element:<dashboard/>,
     },
