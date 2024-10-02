@@ -10,12 +10,8 @@ import Home from './components/home';
   [
     {path:"/Home",
       element:<Home/>,
-    },{
-      
-    },{path:"/dashboard",
-      element:<dashboard/>,
     },
-    
+   
   ]
  );
 function App() {
