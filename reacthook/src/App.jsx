@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-   <form>
+   <form onSubmit={handleSubmit((data) => console.log (data))}>
     <div>
       <label >first name</label>
       <input {...register("first name")}/>
