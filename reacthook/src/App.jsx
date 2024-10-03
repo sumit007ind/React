@@ -15,15 +15,15 @@ function App() {
    <form>
     <div>
       <label >first name</label>
-      <input/>
+      <input {...register("first name")}/>
     </div>
     <div>
       <label >middle name </label>
-      <input/>
+      <input {...register("middle name")}/>
     </div>
     <div>
       <label >Last name</label>
-      <input/>
+      <input {...register("last name")}/>
     </div>
    </form>
 
