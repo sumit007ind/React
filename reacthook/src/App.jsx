@@ -33,6 +33,7 @@ function App() {
     </div>
     <br/>
     <input type='submit'/>
+    <button>Help</button>
    </form>
 
   ) 
