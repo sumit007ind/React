@@ -28,7 +28,7 @@ function App() {
       <input {...register("middle name")}/>
     </div>
     <div>
-      <label >Last namw simu</label>
+      <label >Last namw su</label>
       <input {...register("last name")}/>
     </div>
     <br/>
