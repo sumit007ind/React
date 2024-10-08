@@ -5,6 +5,7 @@ import './App.css'
 function App() {
   const [count ,setCount] =useState(0);
   let val = useRef(0);
+  let btnRef = useRef();
 
   function handleIncrement(){
     val.current =  val.current + 1;
@@ -15,15 +16,24 @@ function App() {
 useEffect(() => {
  console.log("main firse render ho rha hu ")
 })
+function changeColor(){
+  btnRef.current.style.backgroundColor = "red ";
+
+}
 
   
 
   return (
   <div>
-    <button onClick={handleIncrement}>Increment</button>
+    <button 
+    ref={btnRef}
+    onClick={handleIncrement}>Increment</button>
     <br/>
     <br/>
+    <br/>
+    <button onClick={changeColor}>Change color of 1st button </button>
     <button>
+      <br/>
       Count:     {count}
     </button>
   </div>
