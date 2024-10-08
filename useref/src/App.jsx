@@ -7,7 +7,7 @@ function App() {
   let val = useRef(0);
 
   function handleIncrement(){
-    val.current =  val.current+1;
+    val.current =  val.current + 1;
     console.log("value of val",  val.current);
     setCount(count +1);
   }
