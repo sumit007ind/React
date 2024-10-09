@@ -26,7 +26,8 @@ function App() {
       <br/>
       <div>
         <button>
-        <ChildComponent buttonName="click me "/>
+        <ChildComponent buttonName="click me "
+        handleClick ={handleClick} />
         </button>
       </div>
 
