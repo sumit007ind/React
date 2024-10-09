@@ -1,3 +1,5 @@
+import ChildComponent from './component/childComponent';
+
 import {useState} from 'react'
 import './App.css'
 
@@ -14,9 +16,20 @@ function App() {
       <div>
         count:{count}
       </div>
+      <br/>
+      <br/>
       <button onClick = {handleClick}>
        Increment
       </button>
+      <br/> 
+      <br/>
+      <br/>
+      <div>
+        <button>
+        <ChildComponent buttonName="click me "/>
+        </button>
+      </div>
+
     </div>
   )
 }
