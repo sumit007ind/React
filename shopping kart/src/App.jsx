@@ -9,10 +9,11 @@ function App() {
  )
   
 
-  return (
+  return (<>
+   <ShoppingKart/>
+   <Profile/></>
   
-    <ShoppingKart/>
-    <Profile/>
+   
   )
 }
 
